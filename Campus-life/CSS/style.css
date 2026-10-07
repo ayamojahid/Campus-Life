@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+body{
+    width: 100%;
+    background-color: aqua;
+}
+
+
 .logo{
     color: #0A1222;
     font-family: "Inter", sans-serif;
     font-size: 30px;
     margin-right: 40px;
-    margin-left: 50px;
+    margin-left: 40px;
     
 }
 header{
+margin-right: 14px;
 font-family: "Inter", sans-serif;
 background-color: antiquewhite;
 display: flex;
@@ -25,8 +32,9 @@ text-decoration: none;
 }
 .search-icon{
     font-style: bolder;
-    font-size: 20px;
-   
+    font-size: 35px;
+    padding-top: 10px;
+
 }
 
 .btn-nav{
@@ -40,3 +48,25 @@ text-decoration: none;
     cursor: pointer;
 }
 
+.imgindex{
+    height: 461px;
+    width: 589px;
+   
+}
+
+.div1{
+    background-color: #08111D;
+    width: 1024px;
+    height: 461px;
+}
+
+main{
+    display: flex;
+}
+.Campus{
+color: #034BFF;
+
+}
+.Life{
+color: #034BFF;
+}
