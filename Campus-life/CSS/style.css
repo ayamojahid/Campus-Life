@@ -335,4 +335,79 @@ position: relative;
     position: absolute;
 }
 
+/*SECTION 4*/
+
+.section4{
+    height: 320px;
+    width: 100%;
+    background-color: #08111D;
+    color: white;
+    align-content: center;
+    padding-left: 30px;
+   
+}
+
+.section4 h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section4 span{
+    font-size: 12px;
+    color: white;
+    margin-left: 15px;
+    
+}
+
+.section4 h2{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+
+.tout-steps{
+display: flex;
+flex-direction: row;
+gap: 160px;
+
+}
+
+.step p{
+    font-size: 13px;
+    font-weight: 100px;
+    
+}
+
+
+.step-cercle{
+height: 43px;
+width: 43px;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+margin-bottom: 20px;
+}
+
+.step:nth-child(1) .step-cercle {
+    background-color: #034BFF;
+}
+
+.step:nth-child(2) .step-cercle{
+    background-color: #034BFF;
+}
+.step:nth-child(3) .step-cercle{
+    background-color: #04B886;
+}
+.step:nth-child(4) .step-cercle {
+    background-color: #6744FF;
+}
+
+.step:nth-child(5) .step-cercle {
+    background-color: #034BFF; 
+}
+
+.step:nth-child(6) .step-cercle{
+    background-color: #C7F64A;
+}
 
