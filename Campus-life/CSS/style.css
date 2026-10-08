@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-body{
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0;
     font-family: "Inter", sans-serif;
 
 }
@@ -12,6 +14,7 @@ body{
     font-size: 30px;
     margin-right: 40px;
     margin-left: 40px;
+    margin-top: 15px;
     
 }
 header{
@@ -103,7 +106,7 @@ font-weight: bolder;
 #texte2{
 color: #fff;
 font-size: 20px;
-margin-top: -40px;
+margin-top: 10px;
 padding-left: 110px;
 
 }
@@ -144,6 +147,7 @@ padding-left: 110px;
     display: flex;
     padding: 40px;
     margin-left: 20px;
+    margin-top: 25px;
     height: 40px;
     width: 700px;
     align-items: center;
@@ -178,24 +182,23 @@ padding-left: 110px;
     color: #fff; 
 }
 
-.section2{
-display: flex;
-flex-direction: row;
-
-}
 .divsection2{
 display: flex;
 flex-direction: row;
-gap: 250px;
-
+gap: 130px;
+align-content: center;
+margin-top: 30px;
+margin-left: 70px;
 }
-.icon1 , .icon2 , .icon3 , .icon4{
+section span{
+    display: flex;
     color: #034BFF;
     height: 36px;
     width: 42px;
-    font-weight: 500;
+    font-weight: 100;
     font-size: 50px;
-    
+    align-items: center;
+    margin-right: 10px;
 }
 
 .divicon1 , .divicon2 , .divicon3 , .divicon4 {
@@ -203,6 +206,7 @@ gap: 250px;
     flex-direction: row;
     align-items: center;
 }
+
 .number1 , .number2 ,.number3 , .number4 {
     font-size: 26px;
     color: #0A1222;
@@ -213,12 +217,122 @@ gap: 250px;
 .text4 , .text3 , .text2 , .text1{
     display: flex;
     flex-direction: column;
-    background-color: #7a8854;
     align-content: center;
-    margin: 0;
-    padding: 0;
+    width: 200px;
     line-height: 1;
-}
-.number1{
     
 }
+
+.p1section2 , .p2section2 , .p3section2 , .p4section2 {
+    font-size: 400;
+    font-weight: 200;
+    
+}
+
+.section3 {
+   display: flex; 
+   gap: 30px;
+   
+}
+
+.section3 >div:first-child {
+    height: 400px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.section3  h6 {
+    color: #034BFF;
+    font-size: large;
+    font-weight: 300;
+    margin-top: 25px;
+}
+.section3 h1{
+width: 405px;
+height: 80px;
+font-weight: 800;
+font-size: 40px;
+letter-spacing: 0%;
+}
+.section3 p {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.section3 button{
+  margin-left: 2px;
+}
+
+.section3 > div:last-child{
+
+height: 400px;
+width: 700px;
+margin-top: 40px;
+text-align: center;
+position: relative;
+
+}
+.section3 img{
+    margin-top: 100px;
+    border-radius: 5px;
+    
+}
+
+.pic1{
+    rotate: -5deg;
+}
+
+.pic2{
+    rotate: 7deg;
+    position: relative;
+    z-index: 2;
+}
+
+.pic3{
+    rotate: 5deg;
+    margin-bottom: 50px;
+    
+}
+
+#t1 , .t2 , #t3{
+    background-color: #08111D;
+    border: none;
+    color: #fff;
+    height: 30px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 30px;
+    position: relative;
+}
+#t1{
+    margin-left: 90px;
+    top: -20px;
+}
+.t2{
+    margin-left: 270px;
+    top: -50px;
+    z-index: 3;
+}
+#t3{
+    margin-left: 460px;
+    top: -120px;
+    
+}
+
+#des1{
+    height: 69px;
+    width: 72px;
+    transform: rotate(25deg);
+    background-color: #034BFF;
+    border-radius: 7px;
+    top: 70px;
+    left: 350px;
+    z-index: 1;
+    position: absolute;
+}
+
+
