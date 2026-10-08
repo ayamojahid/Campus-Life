@@ -186,7 +186,7 @@ flex-direction: row;
 .divsection2{
 display: flex;
 flex-direction: row;
-gap: 290px;
+gap: 250px;
 
 }
 .icon1 , .icon2 , .icon3 , .icon4{
@@ -195,5 +195,30 @@ gap: 290px;
     width: 42px;
     font-weight: 500;
     font-size: 50px;
-    display: block;
+    
+}
+
+.divicon1 , .divicon2 , .divicon3 , .divicon4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.number1 , .number2 ,.number3 , .number4 {
+    font-size: 26px;
+    color: #0A1222;
+    font-weight: 700;
+   
+}
+
+.text4 , .text3 , .text2 , .text1{
+    display: flex;
+    flex-direction: column;
+    background-color: #7a8854;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.number1{
+    
 }
