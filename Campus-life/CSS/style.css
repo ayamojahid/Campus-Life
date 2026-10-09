@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -21,9 +24,11 @@ header{
 margin-right: 14px;
 background-color: #fff;
 display: flex;
+flex-direction: row;
 }
 nav{
 display: flex;
+flex-direction: row;
 gap: 70px;
 }
 nav a{
@@ -229,6 +234,9 @@ section span{
     
 }
 
+
+/*SECTION 4*/
+
 .section3 {
    display: flex; 
    gap: 30px;
@@ -272,7 +280,7 @@ height: 400px;
 width: 700px;
 margin-top: 40px;
 text-align: center;
-position: relative;
+
 
 }
 .section3 img{
@@ -287,7 +295,6 @@ position: relative;
 
 .pic2{
     rotate: 7deg;
-    position: relative;
     z-index: 2;
 }
 
@@ -323,17 +330,7 @@ position: relative;
     
 }
 
-#des1{
-    height: 69px;
-    width: 72px;
-    transform: rotate(25deg);
-    background-color: #034BFF;
-    border-radius: 7px;
-    top: 70px;
-    left: 350px;
-    z-index: 1;
-    position: absolute;
-}
+
 
 /*SECTION 4*/
 
@@ -409,5 +406,80 @@ margin-bottom: 20px;
 
 .step:nth-child(6) .step-cercle{
     background-color: #C7F64A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer1{
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-color: #101211;
+ 
+}
+
+
+.footer div{
+    display: inline-block;
+    margin-right: 140px; 
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.footer h1 , .footer h6  {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.footer h6{
+color: #C3F85C;
+font-size: 12px;
+}
+
+.rejoindre h6{
+   height: 40px;
+   
+}
+
+.footer button{
+    height: 63px;
+    width: 260px;
+    background-color: #C3F85C; 
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+footer h4{ 
+    line-height: 1.5;
+}
+
+.droit{
+    margin-top: 30px;
+    margin-left: 70px;
+    
+    
+}
+
+.droit p {
+    display: inline;
+    margin-right: 250px;
+    height: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 12px;
 }
 
