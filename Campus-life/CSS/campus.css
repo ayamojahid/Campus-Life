@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.divsection1{
+width: 100%;
+padding-left: 10px;
+}
+.divsection1 h2{
+    font-size: 50px;
+   color: #0A1222;
+   margin: 20px 0px 50px 0px;
+   font-weight: 900;
+   font-family: 'Trebuchet MS', sans-serif
+}
+
+.ecriture h6 ,.elementsection1 h6{
+    color: #034BFF;
+    font-size: 12px;
+     font-family: "Inter", sans-serif;
+}
+
+.elementsection1{
+    
+    height: 200px;
+
+}
+.elementsection1 div{
+display: inline-block;
+   width: 30%;
+   border-style: solid;
+   border-color: #dde4f0;
+   height: 165px;
+   border-radius: 10px;
+   padding: 15px;
+   margin-left: 1dvh;
+}
+
+.elementsection1 p{
+margin-top: 20px;
+font-size: 19px;
+font-weight: 400;
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 1.5;
+}
+
+
+
+.sec2all div{
+    display: inline-block;
+    width: 31.1%;
+    border-style: solid;
+   border-color: #dde4f0;
+    border-radius: 15px 15px 0 0;
+    margin-right: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.divsection2{
+background-color: #F4F7FC;
+height: 935px;
+width: 100%;
+margin-top: 20px;
+}
+
+.sec2all h6, h2 , p{
+    background-color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.divsection2 img{
+   
+    
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 10px;
+}
